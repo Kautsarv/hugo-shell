@@ -1,0 +1,216 @@
+## Example Config file
+baseURL: "https://kautsarv.github.io/hugo-shell/"
+theme: "terminalcv"
+title: "Kautsarv's Void Domain"
+
+params:
+  version: '2.0.0'
+  description: "Kautsar Virzawan Stronghold"
+  prompt:
+    core:
+      text: "user@void-terminal"
+      color: 'pink'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'red'
+      text: '~/user'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'red'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  exitLocation: 'about:blank'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: |                                                                                  
+    ‎ _  _ _  __      __            _                 
+    | || (_) \ \    / /_ _ _ _  __| |___ _ _ ___ _ _ 
+    | __ | |  \ \/\/ / _` | ' \/ _` / -_) '_/ -_) '_|
+    |_||_|_|   \_/\_/\__,_|_||_\__,_\___|_| \___|_|   
+    
+    Welcome to my stronghold
+
+    Type 'help' or '?' to know more about me, let's connect :)
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Kautsar Virzawan"
+      profession: "Software Quality Assurance Automation Engineer"
+      location: "Jakarta, Indonesia"
+      email: "ochank255@yahoo.com"
+      homelink: "https://myHomePage.com"
+      description: |
+              
+              I’m a l̶v̶l̶ ̶9̶9̶ ̶M̶a̶g̶e̶ Certified ISTQB QA Engineer with 5+ years experiences, leveling up in web automation frontend and Backend API testing.
+              I craft clear test cases and bug reports like a pro, wielding different automation frameworks as my trusty gear to keep the quest running smoothly.
+              I love tackling challenges and work well in agile teams, I'm always on the hunt to unlock new skills and deliver epic results!
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "Github"
+      url: "https://github.com/Kautsarv/"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/kautsar-virzawan/"
+    - name: "Instagram"
+      url: "https://www.instagram.com/kautsarv/"
+    - name: "Culinary Compendium Instagram"
+      url: "https://psnprofiles.com/Starvedgeek/"
+    - name: "Playstation Profile"
+      url: "https://psnprofiles.com/Kautsarv/"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+    - jobTitle: Software Quality Assurance Automation Engineer
+      color: blue
+      company: Allianz Indonesia
+      location: Indonesia
+      date: August 2020 - Present
+      description: |
+              Implement comprehensive automation testing for web customer portal app using Robot Framework with Selenium and Playwright Libraries for frontend, 
+              and Robot Framework with Requestlibrary for backend. Resulting in improved project testing coverage from 0% to 80% and reduce regression testing time by 50%.
+
+    - jobTitle: Software Quality Assurance
+      color: blue
+      company: Wirecard
+      location: Indonesia
+      date: Aug 2019 - Aug 2020
+      description: |
+              Implement web frontend automation testing for core banking app using Serenity BDD Framework with Selenium library for frontend, 
+              and Serenity BDD Framework with Rest Assured for backend. Resulting in improved project testing coverage from 0% to 50%.
+
+  education:
+    details:
+    - courseName: Diponegoro University
+      color: red
+      date: 2014 - 2018
+      description: Bachelor's Degree of Computer Engineering
+
+  # skills:
+  #   settings:
+  #     useLess: true
+  #   details:
+  #   - name: Robot Framework
+  #     percentage: 90
+  #     Description: you can add a description
+
+  #   - name: Selenium
+  #     percentage: 30
+  #     #description: or you can leave it comented   
+
+  #   - name: Playwright
+  #     color: blue
+  #     percentage: 50
+  #     description: Skill names can have colors too
+
+  # softskills:
+  #   # settings:
+  #   #   useLess: true
+  #   details:
+  #   - name: SoftSkill 1
+  #     color: red
+  #     percentage: 80
+  #     #description:
+
+  #   - name:  SoftSkill 2
+  #     #color: 
+  #     percentage: 90
+  #     description: Description
+
+  # languages:
+  #   # settings:
+  #   #   useLess: true
+  #   details:
+  #   - name: English
+  #     color: Blue
+  #     percentage: 50
+  #     #description: 
+
+  #   - name: Gibberish
+  #     percentage: 100
+  #     description: pasghettipigglywiggly
+
+
+  # projects:
+  #   # settings:
+  #   #   useLess: true
+  #   details:
+  #   - title: Project Red
+  #     color: red
+  #     date: since 2019
+  #     link: https://example.com
+  #     description: Describing red stuff
+
+  #   - title: Project Blue
+  #     color: blue
+  #     date: since 2016
+  #     link: https://example.com/blue
+  #     #description: nothing to describe
+
+  #   - title: Project Default
+  #     date: Since 2017
+  #     link: https://example.com/default
+  #     #description: not there either
+
+  certifications:
+    # settings:
+    #   useLess: true
+    details:
+    - certName: AWS Certified Cloud Practitioner
+      company: Amazon Web Services (AWS)
+      date: Nov 2023
+      badge: https://www.credly.com/badges/c34cf81a-9456-404c-a1ea-7058f1c4f802/linked_in_profile
+
+    - certName: Agile Tester (CTFL-AT)
+      company: ISTQB® - International Software Testing Qualifications Board
+      date: Sep 2022
+      badge: https://zertdb.isqi.org/en/download/index/token/N3TD%24%24jL%21m6%21TyfF_J_%21
+
+    - certName: ISTQB Certified Tester, Foundation Level
+      company: ISTQB® - International Software Testing Qualifications Board
+      date: Apr 2021
+      badge: https://zertdb.isqi.org/en/download/index/token/1k6-19Q51bSXEhAQ%24ZDX
+  
+  misc: 
+    # settings:
+    #   useLess: true
+    commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+          Here the title and the content can have different colors
+          The content can be multi
+          
+          line
+
+          And spaces       will be respected as well
+          This section will have the default command: misc
+          but you can name it something else with the property
+          commandName: <String>
+          Give it a shot and try and uncomment the line 
+          commandName: newcommand
+          now instead of misc you can execute the newcommand for this section
+          Auto completion will know it too! :D 
+
+    contentColor: orange
