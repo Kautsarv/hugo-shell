@@ -4,18 +4,15 @@ jQuery(document).ready(function($) {
     var animation = false;
 
     var commands = {
-        help: "shows help",
-        whois: "list basic details",
-        social: "list social networks",
-        work: "list work experience",
-        education: "list education",
-        skills: "list core skills",
-        softskills: "list soft skills",
-        languages: "list spoken languages",
-        projects: "list projects",
+        help: "shows things you can do here",
+        whois: "revealing my character background",
+        work: "hero’s journey: my career milestones",
+        education: "knowledge is power",
         {{ if .Site.Params.certifications }} 
-            certifications: "list certifications",
+            certifications: "Does this make me look more credible?",
         {{ end }}
+        skills: "real life has its own skills.",
+        social: "proof that I still have a social life",
         {{ if .Site.Params.startxLocation }}
             startx: "starts graphical environment",
         {{ end }}
@@ -24,9 +21,6 @@ jQuery(document).ready(function($) {
         {{ end }}
         {{ if not .Site.Params.Source }}
             source: "shows details about template powering this website",
-        {{ end }}
-        {{ if .Site.Params.version }}
-            version: "Current version",
         {{ end }}
         {{ if .Site.Params.exitLocation }}
             exit: "exit the terminal",
@@ -61,7 +55,6 @@ jQuery(document).ready(function($) {
 
     var help = '\n[[b;white;]usage:]\n' +
                 '\n <command> - execute the command\n' +
-                ' less <command> - use less to display the output\n\n' +
                 '\n[[b;white;]Available commands:]\n' + 
                commandsHelp();
 
@@ -75,6 +68,9 @@ jQuery(document).ready(function($) {
         {{ end }}
         {{ if .homelink }}
         '[[b;grey;]Homepage:]\t\t{{ .homelink }}\n' +
+        {{ end }}
+        {{ if .hobbies }}
+        '[[b;grey;]Hobbies:]\t\t{{ .hobbies }}\n' +
         {{ end }}
         {{ if .description }}
         '{{ .description }}' +
@@ -219,8 +215,7 @@ jQuery(document).ready(function($) {
 
     var misc = [
          {{ with .Site.Params.misc }}
-        '[[b;{{ .titleColor }};]{{ .title }}]\n' +
-        '[[;{{ .contentColor }};]{{ .content }}]\n',
+        '\n[[b;{{ .contentColor }};]{{ .content }}]',
          {{ end }}
     ];
 
@@ -234,19 +229,16 @@ jQuery(document).ready(function($) {
                   '|      |       |       |   \n' +
                   '|      |       |       |   \n' +
                   '|______|_______|_______|   \n' +
-                  '[[;red;]May the source be with you]\n' +
+                  '[[;red;]Created with Hugo, May the source be with you]\n' +
                   '[[;grey;]https://github.com/coolapso/hugo-theme-terminalcv\n';
 
     var all = [ 
         whois,
-        social(),
         work,
         education,
-        skills,
-        softSkills,
-        languages,
-        projects,
         certifications,
+        skills,
+        social(),
         misc,
         {{ if .Site.Params.misc }}
         {{ end }}

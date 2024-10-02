@@ -22,7 +22,7 @@ params:
       before: '['
       beforeColor: 'red'
       text: '~/user'
-      color: 'blue'
+      color: 'green'
       after: '\]'
       afterColor: 'red'
     extra:
@@ -51,7 +51,7 @@ params:
     
     Welcome to my stronghold
 
-    Type 'help' or '?' to know more about me, let's connect :)
+    Type 'help' or '?' to know more about me, now type!
 
   whois: 
     # settings:
@@ -61,10 +61,12 @@ params:
       profession: "Software Quality Assurance Automation Engineer"
       location: "Jakarta, Indonesia"
       email: "ochank255@yahoo.com"
-      homelink: "https://myHomePage.com"
+      homelink: "https://starvedgeek.blog"
+      hobbies: "Playing video games, culinary, and definitely avoiding coding"
       description: |
               
-              I’m a l̶v̶l̶ ̶9̶9̶ ̶M̶a̶g̶e̶ Certified ISTQB QA Engineer with 5+ years experiences, leveling up in web automation frontend and Backend API testing.
+              I’m a l̶v̶l̶ ̶9̶9̶ ̶M̶a̶g̶e̶ Certified ISTQB Software QA Automation Engineer with 5+ years experiences, 
+              leveling up in web automation frontend and Backend API testing.
               I craft clear test cases and bug reports like a pro, wielding different automation frameworks as my trusty gear to keep the quest running smoothly.
               I love tackling challenges and work well in agile teams, I'm always on the hunt to unlock new skills and deliver epic results!
 
@@ -79,9 +81,9 @@ params:
       url: "https://www.linkedin.com/in/kautsar-virzawan/"
     - name: "Instagram"
       url: "https://www.instagram.com/kautsarv/"
-    - name: "Culinary Compendium Instagram"
-      url: "https://psnprofiles.com/Starvedgeek/"
-    - name: "Playstation Profile"
+    - name: "Foodstagram"
+      url: "https://instagram.com/Starvedgeek/"
+    - name: "PSNProfiles"
       url: "https://psnprofiles.com/Kautsarv/"
 
   work:
@@ -113,22 +115,26 @@ params:
       date: 2014 - 2018
       description: Bachelor's Degree of Computer Engineering
 
-  # skills:
-  #   settings:
-  #     useLess: true
-  #   details:
-  #   - name: Robot Framework
-  #     percentage: 90
-  #     Description: you can add a description
+  skills:
+    # settings:
+    #   useLess: true
+    details:
+    - name: Robot Framework
+      percentage: 90
+      Description: Most of my work has been done with this automation framework
 
-  #   - name: Selenium
-  #     percentage: 30
-  #     #description: or you can leave it comented   
+    - name: Selenium
+      percentage: 70
+      description: The first thing I learned during my automation testing journey   
 
-  #   - name: Playwright
-  #     color: blue
-  #     percentage: 50
-  #     description: Skill names can have colors too
+    - name: Rest Assured
+      percentage: 70
+      description: Simple to use for API testing 
+
+    - name: Playwright
+      percentage: 50
+      description: Selenium but next level
+
 
   # softskills:
   #   # settings:
@@ -201,22 +207,9 @@ params:
   misc: 
     # settings:
     #   useLess: true
-    commandName: newcommand
-    title: "This Section can have a different command name"
+    commandName: hesoyam
+    title: ????
     titleColor: teal
     content: |
-          Here the title and the content can have different colors
-          The content can be multi
-          
-          line
-
-          And spaces       will be respected as well
-          This section will have the default command: misc
-          but you can name it something else with the property
-          commandName: <String>
-          Give it a shot and try and uncomment the line 
-          commandName: newcommand
-          now instead of misc you can execute the newcommand for this section
-          Auto completion will know it too! :D 
-
+          Follow The Damn Train, CJ!
     contentColor: orange

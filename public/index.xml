@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>terminalcv</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on terminalcv</description>
+    <title>Kautsarv&#39;s Void Domain</title>
+    <link>http://localhost:1313/hugo-shell/</link>
+    <description>Recent content on Kautsarv&#39;s Void Domain</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo-shell/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
