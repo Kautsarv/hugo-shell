@@ -6,13 +6,13 @@ jQuery(document).ready(function($) {
     var commands = {
         help: "shows things you can do here",
         whois: "revealing my character background",
-        work: "hero’s journey: my career milestones",
+        work: "hero’s journey",
         education: "knowledge is power",
         {{ if .Site.Params.certifications }} 
-            certifications: "Does this make me look more credible?",
+            certifications: "this make me look more credible",
         {{ end }}
         skills: "real life has its own skills.",
-        social: "proof that I still have a social life",
+        social: "i still have a social life",
         {{ if .Site.Params.startxLocation }}
             startx: "starts graphical environment",
         {{ end }}

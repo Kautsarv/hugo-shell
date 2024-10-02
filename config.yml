@@ -51,7 +51,7 @@ params:
     
     Welcome to my stronghold
 
-    Type 'help' or '?' to know more, now type!
+    Type 'help' or '?' to know more, now go!
 
   whois: 
     # settings:
@@ -121,7 +121,7 @@ params:
     details:
     - name: Robot Framework
       percentage: 90
-      Description: Most of my work has been done with this automation framework
+      description: Most of my work has been done with this automation framework
 
     - name: Selenium
       percentage: 70
