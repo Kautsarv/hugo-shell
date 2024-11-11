@@ -5,7 +5,7 @@ title: "Kautsarv's Void Domain"
 
 params:
   version: '2.0.0'
-  description: "Kautsar Virzawan Stronghold"
+  description: "Kautsar Virzawan Dark Stronghold"
   prompt:
     core:
       text: "user@void-terminal"
